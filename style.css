@@ -1,0 +1,330 @@
+.pai2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    padding: 1%;
+    flex-direction: column;
+
+}
+body{
+
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+}
+
+
+
+main{
+    width: 1024px;
+    display: flex;
+
+}
+
+.titu{
+    width: 100%;
+    height: 20%;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    display: flex;
+
+}
+
+.caixagta{
+    display: flex;
+    width: 100%;
+    height: 22rem;
+    margin-top: 1%;
+    padding: 0.41%;
+    border: 1px solid grey;
+    border-radius: 1%;
+    position: relative;
+}
+
+img{
+    border-radius: 5%;
+}
+
+
+.gta{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    
+}
+
+.txtgta{
+    width: 40%;
+    height: 100%;
+    padding-bottom: 0.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10%;
+}
+
+.txtgta2{
+    width: 100%;
+    height: 20%;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+    line-height: 1cm;
+}
+
+.baixargta{
+    width: 80%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    margin-left: 10%;
+    border-radius: 3%;
+    border: 1px solid rgb(36, 36, 245);    
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+     
+}
+.mae{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    gap: 1%;
+    position: relative;
+}
+
+.mae2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    gap: 1%;
+
+}
+
+.cyber{
+    display: flex;
+    width: 50%;
+    height: 22rem;
+    margin-top: 1%;
+    padding: 1%;
+    flex-direction: column;
+    gap:0.5cm;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 1%;
+    position: relative;
+  
+}
+
+.cyb{
+    width: 90%;
+    height: 15em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.txtcy{ 
+    
+    width: 100%;
+    height: 20%;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:0.2cm
+   
+}
+
+
+
+
+
+.bald{
+    display: flex;
+    width: 25%;
+    height: 18rem;
+    margin-top: 1%;
+    padding: 1%;
+    flex-direction: column;
+    gap: 0.5cm;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 1%;
+    position: relative;
+
+}
+.txtbald{
+    width: 100%;
+    position: relative;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2cm;
+    font-size: 1.2rem;
+    overflow: visible;
+}
+
+.ba{
+    width: 90%;
+    height: 60%;
+    display: flex;
+    justify-self: center;
+    line-height: 5%;
+    
+}
+
+
+.thelou{
+    display: flex;
+    
+    width: 24%;
+    height: 18rem;
+    margin-top: 1%;
+    padding: 1%;
+    flex-direction: column;
+    gap: 0.5cm;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 1%;
+    position: relative;
+
+}
+
+
+.mae2{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    gap: 1%;
+
+}
+
+
+.world{
+    display: flex;
+    width: 50%;
+    height: 22rem;
+    margin-top: 1%;
+    padding: 1%;
+    flex-direction: column;
+    gap:0.5cm;
+    justify-content: center;
+    align-items: center;
+    transform: translatey(-18%);
+    border: 1px solid grey;
+    border-radius: 1%;
+    position: relative;
+  
+}
+
+.baixargta:hover{
+    background:linear-gradient(to right, rgb(211, 211, 211), blue) ;
+ 
+}
+
+
+
+@media (max-width: 768px) {
+
+   
+    main {
+        flex-direction: column;
+        width: 750px;
+        align-self: center;
+        padding: 1%;
+    }
+
+    .mae,
+    .mae2 {
+        flex-direction: column;
+        gap: 1rem;
+        display: flex;
+    }
+    .titu {
+        font-size: 1.1rem;
+        height: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 0;
+        margin: 1%;
+    }
+
+    .caixagta,
+    .cyber,
+    .world,
+    .bald,
+    .thelou {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .gta,
+    .txtgta {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding: 0;
+    }
+    .gta{
+        width: 410px;
+        height: auto;
+        display: flex;
+        align-self: center;
+    }
+    
+
+    .txtgta2 {
+        font-size: 1rem;
+        line-height: 1.4;
+        padding-left: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .baixargta {
+        width: 90%;
+        margin-left: 5%;
+        font-size: 1.2rem;
+    }
+
+    .cyb,
+    .ba {
+        width: 450px;
+        height: auto;
+    }
+
+    .txtcy,
+    .txtbald {
+        font-size: 1rem;
+        text-align: center;
+        align-items: center;
+    }
+
+    .bald,
+    .thelou {
+        width: 100%;
+        
+    }
+
+    .world {
+        transform: none;
+    }
+}
+

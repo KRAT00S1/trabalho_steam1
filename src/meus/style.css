@@ -1,0 +1,125 @@
+body{
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+}
+.pai3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    padding: 1%;
+    flex-direction: column;
+    gap: 1cm;
+
+
+}
+main{
+    flex-direction: column;
+    width: 1024px;
+    display: flex;
+    
+    padding: 1%;
+    
+}
+
+.titu{
+    width: 100%;
+    height: 20%;
+    font-weight: bolder;
+    font-size: 100%;
+    display: flex;
+    padding: 1%;
+
+}
+
+.secao{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+    border: 1px solid grey;
+    border-radius:5px ;
+}
+.jogo{
+    width: 30%;
+    height: auto;
+    display: flex;
+ 
+}
+
+.texto1{
+    display: flex;
+    flex-direction: column;
+    width:40%;
+    height: 10rem;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 15%;
+    
+    font-size: 100%;
+    padding: 0 1%;
+
+    
+}
+
+.desc{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 0.05cm;
+}
+
+.jogar{
+    text-decoration:none;
+    padding: 2% 4%;
+    border: 1px solid white;
+    background-color: hsl(240, 65%, 59%);
+    border-radius: 10px;
+}
+
+   
+@media(max-width:500px){
+
+    .secao{
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+        align-self: center;
+        justify-self: center;
+        padding: 0 3%   ;
+        justify-content: space-between;
+
+        
+    }
+    .jogo{
+        
+        width: 50%;
+    }
+
+    .texto1{
+        display: flex;
+        text-align: end;
+        width: 50%;
+        font-size: 10px;
+        padding: 2% 0;
+
+    }
+     h2{
+        display: flex;
+        justify-content: flex-end;
+
+    }
+    .titu{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center ;
+    }
+
+    
+    
+}

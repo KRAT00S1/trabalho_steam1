@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 500;
+
+}
+body >header{
+    display: flex;
+    justify-self: center;
+}
+
+.baixargta{
+    width: 60%;
+    height: 30%;
+    padding: 0.25cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    border-radius: 3%;
+    border: 1px solid rgb(40, 141, 20);    
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+
+.baixargta:hover{
+    background:linear-gradient(to right, rgb(0, 0, 0), rgb(40, 141, 20)) ;
+ 
+}
+
+
+
+
+.meus {
+    width: 60%;
+    justify-self: center;
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+    
+    padding: 1%;
+}
+
+.meus h1 {
+    font-size: 30px;
+    margin-bottom: 3%;
+
+}
+
+    
+
+.jogo {
+    border: 1px solid grey;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 5%;
+    height: 80%;
+    padding: 2%;
+    font-size: 20px;
+
+}
+
+
+.imagem {
+    width: 50%;
+    align-content: center;
+
+
+}
+
+.img1 {
+    border-radius: 5px;
+    height: 150px;
+}
+
+.desc{    
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    
+}
+
+.status {
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+
+@media (max-width: 500px) {
+
+    .img1{ 
+        height: 110px;
+        width: 160px;
+    }
+    .meus{
+        width: 90%;
+        font-size: 1000px;
+        
+    }
+    body{
+        font-size: 40%;
+        background-color: aqua;
+        
+    }
+    .desc{
+        font-size: 11px;
+    }
+    .jogo{
+        gap: 10%;
+    }
+    .baixargta{ 
+        font-size: 11px;
+        padding: 0.15cm;
+    }
+}
