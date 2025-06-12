@@ -5,6 +5,7 @@
     position: relative;
     padding: 1%;
     flex-direction: column;
+    background-color: aqua;
 
 }
 body{
